@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludo de Cumpleaños</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg'); /* Asegúrate de reemplazar esto por el enlace directo de la imagen */
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Contenedor principal */
+        .greeting-container {
+            background: rgba(255, 99, 71, 0.7); /* Un color semitransparente para el contenedor */
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .greeting-container h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .greeting-container p {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .greeting-container .subtitle {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Foto circular */
+        .photo-container {
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Barra inferior */
+        .footer-bar {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 18px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Video de YouTube */
+        .video-container {
+            margin-top: 30px;
+            text-align: center;
+            width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor del saludo -->
+    <div class="greeting-container">
+        <h1>¡Camila Que tengas un super Feliz Cumple!!!</h1>
+        <p>¡Ya tienes 26 que rápido, pasala genial, no tomes mucho!!!</p>
+        <p class="subtitle">Que tengas unos bonitos 26 y muchosss más
+        <!-- Foto circular -->
+        <div class="photo-container">
+            <img src="C:\Users\User\Desktop\cmila.png" alt="Foto de cumpleaños">
+        </div>
+    </div>
+
+    <!-- Barra inferior fija -->
+    <div class="footer-bar">
+        ¡Felices 26 añitossss!!!!
+    </div>
+
+    <!-- Video de YouTube -->
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FE_KnGLsX5c?si=3jGKebXjtbcKgvqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>
